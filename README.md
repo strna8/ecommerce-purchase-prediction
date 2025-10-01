@@ -1,6 +1,5 @@
-# ecommerce-purchase-prediction
+# AI 기반 E-commerce 고객 구매 예측 모델
 
-# 🛒 AI 기반 E-commerce 고객 구매 예측 모델
 온라인 쇼핑몰 고객 데이터를 활용하여 **구매 여부(Revenue)를 예측**하는 머신러닝 프로젝트입니다.  
 Decision Tree, Random Forest 등 다양한 알고리즘을 적용하고, 주요 변수(Feature Importance)를 분석했습니다.
 
