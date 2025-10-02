@@ -32,3 +32,34 @@
 - 결측치 없음 확인  
 - 주요 범주형 변수 분포 시각화 (`VisitorType`, `Weekend`, `Month`)  
 - `Revenue` (구매 여부) 클래스 불균형 확인 (약
+
+
+### 2. 모델링
+- 사용 알고리즘
+  - Decision Tree
+  - Random Forest
+- 성과 비교
+  - Decision Tree: Accuracy 0.83
+  - Random Forest: Accuracy 0.88
+
+### 3. 주요 결과
+- 구매 예측에 가장 영향을 주는 변수:
+  - `PageValues`  
+  - `ExitRates`  
+  - `ProductRelated_Duration`  
+
+---
+
+## 📈 결과 요약
+- 최종 모델: Random Forest  
+- Accuracy: 0.88  
+- Confusion Matrix:
+  - Positive Recall(구매 예측): 0.78  
+  - False Positive 줄이면서도 구매 고객을 비교적 잘 식별  
+
+---
+
+## 🚀 실행 방법
+1. 저장소 클론
+   ```bash
+   git clone https://github.com/strna8-cloud/healthcare-purchase-prediction.git
